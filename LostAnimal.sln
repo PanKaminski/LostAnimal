@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostAnimal.WebApi", "LostAnimal.WebApi\LostAnimal.WebApi.csproj", "{24FCD467-CADC-4260-9F99-0E9EED18275D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostAnimal.Bll.Contract", "LostAnimal.Bll.Contract\LostAnimal.Bll.Contract.csproj", "{B8911DE2-7ABE-493C-91BA-D50A67046FBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostAnimal.Bll", "LostAnimal.Bll\LostAnimal.Bll.csproj", "{C14C84D3-FB5B-47E7-9F3B-4A8DB80C11F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostAnimal.Dal.Contract", "LostAnimal.Dal.Contract\LostAnimal.Dal.Contract.csproj", "{B42B7B34-9A4C-4421-B6F5-1F623BEA9704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostAnimal.Dal", "LostAnimal.Dal\LostAnimal.Dal.csproj", "{192F74C7-C01F-40FA-BD8D-3ED484D4FC76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24FCD467-CADC-4260-9F99-0E9EED18275D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FCD467-CADC-4260-9F99-0E9EED18275D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FCD467-CADC-4260-9F99-0E9EED18275D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FCD467-CADC-4260-9F99-0E9EED18275D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8911DE2-7ABE-493C-91BA-D50A67046FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8911DE2-7ABE-493C-91BA-D50A67046FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8911DE2-7ABE-493C-91BA-D50A67046FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8911DE2-7ABE-493C-91BA-D50A67046FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14C84D3-FB5B-47E7-9F3B-4A8DB80C11F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14C84D3-FB5B-47E7-9F3B-4A8DB80C11F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14C84D3-FB5B-47E7-9F3B-4A8DB80C11F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14C84D3-FB5B-47E7-9F3B-4A8DB80C11F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B42B7B34-9A4C-4421-B6F5-1F623BEA9704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B42B7B34-9A4C-4421-B6F5-1F623BEA9704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B42B7B34-9A4C-4421-B6F5-1F623BEA9704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B42B7B34-9A4C-4421-B6F5-1F623BEA9704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192F74C7-C01F-40FA-BD8D-3ED484D4FC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192F74C7-C01F-40FA-BD8D-3ED484D4FC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192F74C7-C01F-40FA-BD8D-3ED484D4FC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192F74C7-C01F-40FA-BD8D-3ED484D4FC76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6AC079D-B8E0-4DDF-9197-98DABF5B41E9}
+	EndGlobalSection
+EndGlobal

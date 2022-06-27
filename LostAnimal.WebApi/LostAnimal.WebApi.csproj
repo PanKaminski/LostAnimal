@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LostAnimal.Bll.Contract\LostAnimal.Bll.Contract.csproj" />
+    <ProjectReference Include="..\LostAnimal.Bll\LostAnimal.Bll.csproj" />
+    <ProjectReference Include="..\LostAnimal.Dal.Contract\LostAnimal.Dal.Contract.csproj" />
+    <ProjectReference Include="..\LostAnimal.Dal\LostAnimal.Dal.csproj" />
+  </ItemGroup>
+
+</Project>
