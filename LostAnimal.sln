@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostAnimal.WebApi", "LostAnimal.WebApi\LostAnimal.WebApi.csproj", "{24FCD467-CADC-4260-9F99-0E9EED18275D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LostAnimal.WebApi", "LostAnimal.WebApi\LostAnimal.WebApi.csproj", "{24FCD467-CADC-4260-9F99-0E9EED18275D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostAnimal.Bll.Contract", "LostAnimal.Bll.Contract\LostAnimal.Bll.Contract.csproj", "{B8911DE2-7ABE-493C-91BA-D50A67046FBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LostAnimal.Bll.Contract", "LostAnimal.Bll.Contract\LostAnimal.Bll.Contract.csproj", "{B8911DE2-7ABE-493C-91BA-D50A67046FBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostAnimal.Bll", "LostAnimal.Bll\LostAnimal.Bll.csproj", "{C14C84D3-FB5B-47E7-9F3B-4A8DB80C11F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LostAnimal.Bll", "LostAnimal.Bll\LostAnimal.Bll.csproj", "{C14C84D3-FB5B-47E7-9F3B-4A8DB80C11F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostAnimal.Dal.Contract", "LostAnimal.Dal.Contract\LostAnimal.Dal.Contract.csproj", "{B42B7B34-9A4C-4421-B6F5-1F623BEA9704}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LostAnimal.Dal.Contract", "LostAnimal.Dal.Contract\LostAnimal.Dal.Contract.csproj", "{B42B7B34-9A4C-4421-B6F5-1F623BEA9704}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostAnimal.Dal", "LostAnimal.Dal\LostAnimal.Dal.csproj", "{192F74C7-C01F-40FA-BD8D-3ED484D4FC76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LostAnimal.Dal", "LostAnimal.Dal\LostAnimal.Dal.csproj", "{192F74C7-C01F-40FA-BD8D-3ED484D4FC76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostAnimal.Orm", "LostAnimal.Orm\LostAnimal.Orm.csproj", "{51C0CF1D-2237-4E15-8FF1-26EFC17219DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{192F74C7-C01F-40FA-BD8D-3ED484D4FC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{192F74C7-C01F-40FA-BD8D-3ED484D4FC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{192F74C7-C01F-40FA-BD8D-3ED484D4FC76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C0CF1D-2237-4E15-8FF1-26EFC17219DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C0CF1D-2237-4E15-8FF1-26EFC17219DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C0CF1D-2237-4E15-8FF1-26EFC17219DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C0CF1D-2237-4E15-8FF1-26EFC17219DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
